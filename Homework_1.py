@@ -1,5 +1,5 @@
-# Name:
-# SBUID: 
+# Name: Chankyu Lee
+# SBUID: 112980557
 
 # Remove the ellipses (...) when writing your solutions.
 
@@ -8,10 +8,30 @@
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
 
 def fahrenheit2celsius(fahrenheit): 
-   ...
+   F_temp= float(input("Input the Fahrenheit: "))
+   C_temp= (F_temp - 32) * 5/9
+
+   print("Fahrenheit is converted to celsius:")
+   print(C_temp)
+   #print("{F_temp} is same as {C_temp}") 
 
 def what_to_wear(celsius):
-   ...
+   Temp_input= float(input("What's the current temperature in Celsius?:"))
+
+   if Temp_input < -10:
+       print("puffy jacket")
+   elif -10<Temp_input<0:
+       print("Scarf") 
+   elif 0< Temp_input <10:
+       print("Sweater")
+   elif 10<Temp_input<20:
+       print("Light jacket")
+   elif Temp_input>20:
+       print("T-Shirt")
+
+
+
+
 
 # ---------------------------- Exercise II --------------------------------------
 # ----------------- Area and perimeter of a triangle  ---------------------------
