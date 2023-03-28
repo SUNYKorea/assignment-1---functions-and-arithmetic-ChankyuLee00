@@ -39,28 +39,32 @@ def what_to_wear(celsius):
 # compute_triangle_perimeter from scratch  
 
 def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
-    ...
+    abs((x1*y2+x2*y3+x3*y1)-(x1*y3+x2*y1+x3*y2))/2
 
-def euclidean_distance(x1, y1, x2, y2):
-    ...
+def euclidean_distance(x1, y1, x2, y2, x3, y3):
+    Dist = ((x1-x2)**2 -(y1-y2)**2)+((y2 - y1)**2)**(1/2)
 
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
-    ...
+    Tri_para = ((((x2 - x1)**2) + ((y2 - y1)**2) ** (1/2)) + (((x1 - x3)**2) + ((y1 - y3)**2) ** (1/2)) + (((x3 - x2)**2) + ((y3 - y2)**2) ** (1/2)))
+
+
+
+
 
 
 # ---------------------------- Exercise III -------------------------------------
 # ----------------- Compute the area of a regular polygon -----------------------
 # TODO: Fill the functions deg2rad, apothem  and polygon_area 
 
-
+import math
 def deg2rad(deg):
-    ...
+    degre = r * (180/math.pi)
 
 def apothem(number_sides, length_side):
-   ...
+   Apo = length_side / (2 * (math.tan)*(180/number_sides))
 
 def polygon_area(number_sides, length_side):
-   ...
+   Are = ((number_sides * length_side * apothem(number_sides, length_side))/2)
 
 
 # ---------------------------- Test -------------------------------------
