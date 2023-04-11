@@ -1,6 +1,8 @@
 # Name: Chankyu Lee
 # SBUID: 112980557
-
+##################### SCORE ######################
+####### Score:  2/10
+#################################################
 # Remove the ellipses (...) when writing your solutions.
 
 # ---------------------------- Exercise I ---------------------------------------
@@ -13,7 +15,7 @@ def fahrenheit2celsius(fahrenheit):
 
    print("Fahrenheit is converted to celsius:")
    print(C_temp)
-   #print("{F_temp} is same as {C_temp}") 
+   #print("{F_temp} is same as {C_temp}") 44
 
 def what_to_wear(celsius):
    Temp_input= float(input("What's the current temperature in Celsius?:"))
@@ -42,7 +44,7 @@ def shoelace_triangle_area(x1, y1, x2, y2, x3, y3):
     abs((x1*y2+x2*y3+x3*y1)-(x1*y3+x2*y1+x3*y2))/2
 
 def euclidean_distance(x1, y1, x2, y2, x3, y3):
-    Dist = ((x1-x2)**2 -(y1-y2)**2)+((y2 - y1)**2)**(1/2)
+    Dist = ((x1-x2)**2 -(y1-y2)**2)+((y2 - y1)**2)**(1/2) # No return statements and hence no output
 
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
     Tri_para = ((((x2 - x1)**2) + ((y2 - y1)**2) ** (1/2)) + (((x1 - x3)**2) + ((y1 - y3)**2) ** (1/2)) + (((x3 - x2)**2) + ((y3 - y2)**2) ** (1/2)))
@@ -61,7 +63,7 @@ def deg2rad(deg):
     degre = r * (180/math.pi)
 
 def apothem(number_sides, length_side):
-   Apo = length_side / (2 * (math.tan)*(180/number_sides))
+   Apo = length_side / (2 * (math.tan)*(180/number_sides)) # No return statements and hence no output
 
 def polygon_area(number_sides, length_side):
    Are = ((number_sides * length_side * apothem(number_sides, length_side))/2)
