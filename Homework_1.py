@@ -1,7 +1,7 @@
 # Name: Chankyu Lee
 # SBUID: 112980557
 ##################### SCORE ######################
-####### Score:  2/10
+####### Score:  6.5/10
 #################################################
 # Remove the ellipses (...) when writing your solutions.
 
